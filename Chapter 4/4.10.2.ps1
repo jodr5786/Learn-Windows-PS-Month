@@ -1,0 +1,1 @@
+Get-EventLog -LogName Security -Newest 100

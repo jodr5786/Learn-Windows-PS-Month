@@ -1,5 +1,3 @@
-Set-Location -Path HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer
+Get-Item env:temp
 
-Set-ItemProperty -Path Advanced -PSProperty DontPrettyPath -Value 1
-
-Set-ItemProperty -Path Advanced -PSProperty DontPrettyPath -Value 0
+Get-ChildItem env:temp

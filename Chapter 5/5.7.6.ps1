@@ -1,5 +1,5 @@
-Set-Location -Path HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer
+Help Get-ChildItem -ShowWindow
 
-Set-ItemProperty -Path Advanced -PSProperty DontPrettyPath -Value 1
-
-Set-ItemProperty -Path Advanced -PSProperty DontPrettyPath -Value 0
+# -Filter: Provider applies 
+# -Include: Includes items based on path or pattern
+# -Exclude: Excludes items based on path or pattern

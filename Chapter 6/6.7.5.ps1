@@ -1,0 +1,1 @@
+Get-Service | Export-Csv .\services.csv -NoTypeInformation

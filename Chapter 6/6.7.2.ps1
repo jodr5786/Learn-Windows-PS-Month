@@ -1,0 +1,1 @@
+Get-Service | Export-CSV services.csv | Out-File

@@ -1,0 +1,1 @@
+Get-Date | Select-Object DayOfWeek

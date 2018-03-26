@@ -1,0 +1,1 @@
+Limit-EventLog -LogName Security -OverflowAction OverwriteAsNeeded

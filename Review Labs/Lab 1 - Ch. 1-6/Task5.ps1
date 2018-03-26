@@ -1,0 +1,1 @@
+Get-ChildItem -Path C:\ -File -Recurse -Filter 'Win*.*'

@@ -1,0 +1,1 @@
+Get-Service | Sort-Object -Property Status -Descending | Select-Object ServiceName,Status | Export-Csv task3.csv

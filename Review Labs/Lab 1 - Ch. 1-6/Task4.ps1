@@ -1,0 +1,1 @@
+Set-Service -Name BITS -StartupType Manual

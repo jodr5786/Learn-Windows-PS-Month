@@ -1,0 +1,1 @@
+Get-ChildItem -Path 'C:\Program Files' -Recurse | Out-File Dir.txt

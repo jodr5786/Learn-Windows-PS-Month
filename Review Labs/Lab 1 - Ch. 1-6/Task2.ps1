@@ -1,0 +1,1 @@
+Get-Process | Sort-Object -Descending -Property VM | Select-Object -First 5

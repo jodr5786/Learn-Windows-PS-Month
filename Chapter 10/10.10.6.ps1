@@ -1,0 +1,1 @@
+Get-ChildItem -Path C:\Windows\*.exe | Format-List Name,VersionInfo,@{l='Size';e={$_.Length}}

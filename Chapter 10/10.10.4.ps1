@@ -1,0 +1,1 @@
+Get-Service | Sort-Object Status -Descending | Format-Table -GroupBy Status
